@@ -1,0 +1,62 @@
+header{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+aside{
+    background-color: orange;
+    width: 30%;
+    height: 370px;
+    justify-content: center;
+  
+}
+
+section{
+    background-color: cornflowerblue;
+    width: 70%;
+    height: 370px;
+    justify-content: center;  
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+section form input[type="submit"]{
+    align-self: flex-end;
+}
+
+
+footer{
+    background-color: blueviolet;
+    padding: 40px;
+    clear: both;
+    
+}
+form{
+    /* margin:0 auto ; */
+display: inline-block;
+}
+td{text-align: left;}
+
+.submit-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    /* background-color: #4CAF50; */
+    /* color: white; */
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+    margin-top: 10px;
+    float: right;
+}
+
+/* .submit-btn:hover{ */
+    /* background-color: #45a049; */
+/* } */
